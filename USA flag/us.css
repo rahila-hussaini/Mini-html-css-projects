@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(224, 224, 224) ;
+}
+.container{
+    width: 400px;
+    height: 260px;
+}
+.box-red{
+    height: 20px;
+    width: 400px;
+    background-color: rgb(179, 26, 66);
+}
+.box-white{
+    height: 20px;
+    width: 400px;
+    background-color: rgb(225, 225, 225);
+}
+.indigo{
+    position: relative;
+    bottom: 260px;
+    background-color: rgb(10, 49, 97);
+    height:140px ;
+    width: 190px;
+}
+.star{
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0.3px;
+    margin-bottom: -0.6px;
+    height: 15px;
+    width: 15px
+}
+.star-box-1{
+    display: flex;
+    justify-content: space-between;
+}
+.star-box-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 6px;
+    margin-right: 6px;
+ 
+}
