@@ -1,0 +1,143 @@
+@media (max-width:500px) {
+    .background{
+        display: flex;
+    }   
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #080710;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.background{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-left: -360px;
+    margin-top: 100px;
+    
+}
+.shape1{
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(44, 1, 44),rgb(180, 111, 196));
+    position: relative;
+    left: 330px;
+    top: -220px;    
+}
+.shape2{
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to left,orangered,#23f62d);
+    position: relative;
+    left: 480px;
+    top: 230px;
+}
+.shape3{
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(37, 0, 4),rgb(245, 91, 1));
+    position: relative;
+    left: 20px;
+    top: 140px;
+    
+}
+.shape4{
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to left,rgb(0, 60, 255),#23b3f6);
+    position: relative;
+    left: 130px;
+    top: -5px;
+}
+.shape5{
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to left,rgb(255, 0, 0),rgb(251, 255, 0));
+    position: relative;
+    right: -300px;
+    top: 30px;
+}
+form{
+    height: 490px;
+    width: 330px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 4%;
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 48px rgba(8, 7, 16, 0.6);
+    padding: 30px 35px;
+}
+form *{
+    color: #ffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 1px;
+}
+label{
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+button{
+    margin-top: 40px;
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+    color: #080710;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+    margin-top: 30px;
+    display: flex;
+}
+.social div{
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255, 255, 255, 0.27);
+    color: #eaf8fb;
+    text-align: center;
+}
+.social div{
+    background-color: rgba(255, 255, 255, 0.47);
+}
+.fb{
+    margin-left: 33px;
+}
+.newaccount{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
