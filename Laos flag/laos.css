@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.red-box{
+    background-color:  #CE1126;
+    width: 500px;
+    height: 300px;
+}
+.blue-box{
+    background-color: #002868;
+    width: 500px;
+    height: 170px;
+    position: relative;
+    top: 65px;
+}
+.white-circle{
+    background-color: #FFFFFF;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: 15px;
+    left: 177px;
+    border-radius: 50%;
+}
