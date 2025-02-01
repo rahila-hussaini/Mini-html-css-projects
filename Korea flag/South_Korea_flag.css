@@ -1,0 +1,253 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(226, 221, 221);
+}
+/* flag code*/
+.flag{
+    background-color: white;
+    height: 350px;
+    width: 510px;
+}
+/* yin-yang logo(circles) 
+we need to 3 circle one big 2 small(with color blue and red) */
+.yin-yang-circle{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to top, blue 50%, red 50% );
+    border-radius: 50%;
+    position: relative;
+    left: 180px;
+    top: -135px;
+
+}
+.circle-top{
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: relative;
+    top:40px;
+    left: 0px;
+    
+}
+.circle-bottom{
+    background-color:blue;
+    height: 75px;
+    width: 75.5px;
+    border-radius: 50%;
+    position: relative;
+    top: -35px;
+    left: 75px;
+}
+/* three small rectangle(lines) top right side */
+.rectangle-top-right{
+    background-color: white;
+    height: 120px;
+    width: 100px;
+    transform: rotate(35deg);
+    position: relative;
+    left: 70px;
+    top: 35px;
+}
+.rectangle-top-right-1{
+    background-color:black;
+    height: 13px;
+    width: 100px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 55px;
+    right: 25px;
+}
+.rectangle-top-right-2{
+    background-color:black;
+    height: 13px;
+    width: 100px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 42px;
+    
+}
+.rectangle-top-right-3{
+    background-color:black;
+    height: 13px;
+    width: 100px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 29px;
+    right: -25px;
+}
+
+/* five small rectangle(lines) bottom left side */
+.rectangle_bottom_left{
+    background-color: white;
+    height: 120px;
+    width: 100px;
+    transform: rotate(-35deg);
+    position: relative;
+    left: 60px;
+    top: 65px;
+}
+.rectangle_bottom_left-1{
+    background-color:black;
+    height: 13px;
+    width: 100px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 67px;
+    right: 25px;
+}
+.rectangle_bottom_left-2-1{
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 27px;
+    left: 28px;        
+}
+.rectangle_bottom_left-2-2{
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 69.3px;
+    left: 28px;
+}
+.rectangle_bottom_left-3{
+    background-color:black;
+    height: 13px;
+    width: 100px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 29px;
+    right: -25px;
+}
+
+/* five small rectangle(lines) top right side */
+.rectangle_top_right{
+    background-color: white;
+    height: 120px;
+    width: 100px;
+    transform: rotate(-35deg);
+    position: relative;
+    left: 340px;
+    top: -355px;
+}
+.rectangle_top_right-1-1{/* 2 first smaller line*/
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 27px;
+    left: 55px;        
+}
+.rectangle_top_right-1-2{
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 69.3px;
+    left: 55px;
+}
+
+.rectangle_top_right-2{
+    background-color:black;
+    height: 13px;
+    width: 100px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 29px;
+    left: 1px;
+}
+
+.rectangle_top_right-3-1{ /* 2 second smaller line*/
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -11px;
+    left: 1px;        
+}
+.rectangle_top_right-3-2{
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 31px;
+    left: 1px;
+}
+
+/* five small rectangle(lines) bottom right side */
+.rectangle_bottom_right{
+    background-color: white;
+    height: 120px;
+    width: 100px;
+    transform: rotate(35deg);
+    position: relative;
+    left: 341.5px;
+    top: -310px;
+}
+.rectangle_bottom_right-1-1{/* 2 first smaller line*/
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 25px;
+    left: 1px;        
+}
+.rectangle_bottom_right-1-2{
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 70px;
+    left: 1px;
+}
+
+.rectangle_bottom_right-2-1{ /* 2 second smaller line*/
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -1px;
+    left: 26.5px;        
+}
+.rectangle_bottom_right-2-2{
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 44px;
+    left: 26.5px;
+}
+
+.rectangle_bottom_right-3-1{ /* 2 third smaller line*/
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -27px;
+    left: 50px;        
+}
+.rectangle_bottom_right-3-2{
+    background-color:black;
+    height: 13px;
+    width: 45px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 18px;
+    left: 50px;
+}
