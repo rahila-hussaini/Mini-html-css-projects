@@ -33,8 +33,7 @@ nav {
   position: relative;
   float: right;
   cursor: pointer;
-  margin-top: -6px;
-  background-color:rgb(244, 231, 231);
+  margin-top: -4px;
   display: block;
 }
 
